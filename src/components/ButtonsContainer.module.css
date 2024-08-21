@@ -1,0 +1,13 @@
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+}
